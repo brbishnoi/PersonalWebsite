@@ -1,0 +1,220 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-size: 1611px;
+    color: black;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+}
+.header{
+    background-color: black;
+    margin: 0px;
+}
+.left{
+    
+    display: inline-block;
+    position: absolute;
+    right: 188px;
+    top: 236px;
+}
+.left img{
+    width: 350px;
+}
+.mid{
+    
+    display: block;
+    width: 43%;
+    margin: -22px;
+    font-size: 25px;
+    padding: 25px;
+    
+
+}
+.right{
+    position: absolute;
+    right: 4px;
+    top: 20px;
+    
+    display: inline-block;
+}
+.navbar{
+    display: ;
+}
+.navbar li{
+    display: inline-block;
+    
+}
+.navbar li a{
+
+    text-decoration: none;
+    padding: 2px 21px;
+    color: blanchedalmond;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color: rgb(233, 239, 240);
+}
+.btn{
+    margin: 15px 9px;
+    padding: 3px 0px;
+    
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+.btn:hover{
+    color: rgb(233, 239, 240);;
+}
+.container{
+  
+    margin: 143px 94px;
+    padding: 0px 100px;
+    width: auto;
+    color: blanchedalmond;
+}
+.profile{
+    margin: -2px;
+    padding: 350px;
+    background: url(background.jpg), 4px;
+    background-repeat: no-repeat;
+    width: 890px;
+    background-size: 1523px;
+}
+ .hero_txt {
+    position: absolute;
+    z-index: 4;
+    top: 35%;
+    left: 21%;
+    text-align: center;
+    color: #fff;
+    font-family: 'Julius Sans One', sans-serif;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 50%);   
+}
+.center{
+    margin: 6px 0 0px 650px;
+    padding: 0 0 0px 0;
+}
+.detial{
+    margin: 0px;
+    padding: 0px;
+    width: 1000px;
+    padding-left: 244px;
+}
+.speech{
+    margin: 0px;
+    padding: 204px;
+    background: url(b1.jpg), 4px;
+    background-repeat: no-repeat;
+    width: 1117px;
+    background-size: 1518px;
+
+}
+.talks{
+    position: absolute;
+    z-index: 13;
+    top: 197%;
+    left: 43%;
+    text-align: center;
+    color: #fff;
+    font-family: 'Julius Sans One', sans-serif;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 50%);
+
+}
+.links{
+    position: absolute;
+    z-index: 36;
+    top: 70%;
+    left: -191px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Julius Sans One', sans-serif;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 50%);
+    width: 300px;
+}
+.links li{
+    display: inline-block;
+    margin: -45px;
+    padding: 7px;
+    width: 166%;
+    
+}
+.links li a{
+
+    text-decoration: none;
+    padding: 20px 20px;
+    color: blanchedalmond;
+}
+.links li a:hover,.links li a.active{
+    text-decoration: underline;
+    color: rgb(233, 239, 240);
+}
+.gallery{
+    background-color: lightcoral;
+    width: 1456px;
+    margin: 0px;
+    padding: 31px;
+}
+
+.back{
+    width: 100%;
+    height: 600px;
+    left: 50%;
+    top: 50%;
+    background-image: url(1.jpg);
+    animation: slider 9s infinite linear;
+}
+@keyframes slider{
+    0%{background-image: url('2.jpg');}
+    33%{background-image: url('3.jpg');}
+    99%{background-image: url('1.jpg');}
+}
+.g1{
+    position: absolute;
+    left: 42%;
+    top: 251%;
+    color: wheat;
+}
+.last{
+    background-color: rgb(90, 91, 173);
+    padding: 171px;
+}
+.contact{
+    position: absolute;
+    left: 454px;
+    top:350%;
+}
+.facebook{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 491px;
+    top: 380%;
+}
+.facebook img{
+    width: 59px;
+    height: 50px;
+}
+.linkedin{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 630px;
+    top: 380%;
+}
+.linkedin img{
+    width: 59px;
+    height: 50px;
+}
+.instagram{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 780px;
+    top: 380%;
+}
+.instagram img{
+    width: 59px;
+    height: 50px;
+}
